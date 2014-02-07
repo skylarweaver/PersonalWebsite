@@ -1,0 +1,135 @@
+html { 
+  background-color: #000000;
+  background: #000 url(../images/crater.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 850px
+}
+
+
+#container{
+	opacity: 0.93;
+	background-color: #F3F3F3;
+	width: 35%;
+	height: 25em;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: auto;
+	padding: 1.4% 5% 1% 5%;
+	border-radius: 5px;
+	text-align: center;
+	min-width: 450px;
+}
+
+#container h1{
+	text-align: center;
+	font-size: 3.4em;
+	color: #000;
+	border-radius: 10px;
+	box-shadow: 0 55px 0 0 #000;
+	height: 7px;
+	margin: 0em auto 1.3em auto;
+	width: 350px;
+}
+
+#container h4{
+	color: #A04C0E;
+	line-height: 0.25;
+	margin-bottom: 2em;
+}
+
+#container #contactInfo{
+	display: inline-block;
+	text-align: left;
+	margin-top:0.9%;
+}
+
+#container img{
+	margin-top: -1.5%;
+	margin-left: 14%;
+	display: inline-block;
+
+}
+
+#container h3{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 2em;
+	margin-top: 12px;
+}
+
+#container h3{
+	color: black;
+}
+
+#contactInfo{
+}
+
+#contactInfo #topLine{
+	background-color: rgba(183, 104, 213,1.0);
+	width: 450px;
+	height:65px;
+	/* padding-left: 15%; */
+}
+
+#contactInfo #secondLine{
+	background-color: rgba(52, 152, 219,1.0);
+	height: 65px;	
+}
+
+#contactInfo #secondLine h3{
+}
+
+#icons{
+	display: inline-flex;
+	background: rgba(255,255,255, 1);
+	margin-top: -2.5%;
+}
+
+#icons #facebook{
+    width:0px;
+    height:0px;
+	background: rgba(255,255,255, 1);
+    background:url('../images/facebookREG.jpg');
+    padding:75px;
+    	transition:background .7s;
+
+}
+
+#icons #facebook:hover{
+    background:url('../images/facebookREV.jpg');
+            	transition:background .7s;
+
+}
+
+
+#icons #github{
+	    width:0px;
+    height:0px;
+    background:url('../images/githubREG.png');
+    padding:75px;
+        	transition:background .7s;
+
+}
+
+#icons #github:hover{
+    background:url('../images/githubREV.png');
+            	transition:background .7s;
+
+}
+
+#icons #linkedIn{
+    width:0px;
+    height:0px;
+    background:url('../images/linkedInREG.png');
+    padding:75px;
+        	transition:background .7s;;
+}
+
+
+#icons #linkedIn:hover{
+    background: url('../images/linkedInREV.png');
+            	transition:background .7s;
+}

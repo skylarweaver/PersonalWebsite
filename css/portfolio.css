@@ -1,0 +1,92 @@
+html { 
+  background-color: #000000;
+  background: #000 url(../images/sunsetRock.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 850px;
+  font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+#portfolioGrid{
+  width: 70%;
+  max-width: 1022px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2%;
+  margin-bottom: 1%;
+} 
+#portfolioGrid li{
+  list-style: none;
+}
+
+#portfolioGrid li img{
+  float:left;
+  margin:2em;
+  border: 0.3em solid #F77716;
+}
+
+#portfolioGrid li img:hover{
+  float:left;
+  margin:2em;
+  border: 0.3em solid #FFFFFF;
+}
+
+.popup{
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 45em;
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+}
+
+.popup p{
+  font-size: 1.4em;
+  text-align: justify;
+}
+
+.popup h2 {
+  font-size: 3em;
+}
+
+.popup img{
+  box-shadow: 0px 0px 3px #000;
+}
+
+
+
+
+.mfp-fade.mfp-bg {
+  opacity: 0.15;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}

@@ -1,0 +1,79 @@
+
+body{
+	min-width: 700px;
+	margin:0em;
+}
+
+/* Header CSS*/
+header{
+	display: inline-block;
+	width: 100%;
+    background: rgba(51, 3, 0, 0.8);
+    margin-bottom: 2em;
+}
+
+body header #logo{
+	display: inline-block;
+	float: left;
+	margin-left: 2em;
+	margin-top: .25em;
+	margin-bottom: .1em;
+}
+
+#navBar{
+	width:28em;
+	float: right;
+	margin-right: 1.1em;
+	margin-top: 0.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+	}
+
+#navBar a{
+	padding-left:0.3em;
+	padding-right: 0.3em;
+	padding-top: 0.15;
+	padding-bottom: 0.15em;
+	transition:color .5s, background-color .5s;
+	border-radius: 0.1em;
+	margin-right: 0.5em;
+}
+
+#navBar a:link{
+	/*color: #F77716;*/
+	font-size: 1.3em;
+	text-decoration: none;
+	color: rgba(247, 119, 22, 1);
+}
+
+
+#navBar a:visited{
+	color:#F77716;
+	background-color:#F77716;
+	color: rgba(247, 119, 22, 1);
+
+}
+#navBar a#current{
+	color:#FFFFFF;
+	background-color:#F77716;
+}
+#navBar a:visited#current{
+	color:#FFFFFF;
+	background-color:#F77716;
+}
+#navBar a:hover#current{
+	color:#FFFFFF;
+	background-color:#F77716;
+}
+#navBar a:hover{
+	color:#FFFFFF;
+	background-color:#F77716;
+}
+
+
+
+
+
+#nabBar li{
+	display: inline;
+}
+/* End Header CSS*/

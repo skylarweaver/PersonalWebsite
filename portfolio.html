@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="Author" content="Skylar Weaver">
+		<title>Skylar Weaver &#8212; Developer and Analyst</title>
+		<meta name="keywords" content="Skylar Weaver SkylarWeaver Carnegie Mellon university CMU information systems developer software front back end">
+		<meta name="description" content="Skylar Weaver, an Information Systems student at Carnegie Mellon University">
+		<link rel="icon"
+		type="ico"
+		href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" href="css/magnific-popup.css"> 
+		<link rel="icon" type="ico" href="pictures/favicons/favicon.ico">
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<!--JS-->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.magnific-popup.js"></script> 
+		<Script>
+		$(document).ready(function() {
+			// From an element with ID item1
+			$('#gridList').magnificPopup({
+			  delegate: "a",
+			  type: "inline",
+			  midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+			  mainClass:"mfp-fade",
+			});
+		});
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-47769417-1', 'skylarweaver.com');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<header>
+			<div id = "logo">
+				<a href="index.html"><img id = "logo" src = "images/weave.png" height="60"></a>
+			</div>
+				<div id="navBar">
+					<nav>
+							<ul>
+								<a id="current" href="portfolio.html">Portfolio </a>
+								<a href="resume.html">Resume</a>
+								<a href="contact.html">Contact</a>
+							</ul>
+						</nav>	
+				</div>
+		</header>
+		<div id="portfolioGrid">
+			<ul id="gridList">
+				<a href="#popup1" id = "item1"><li class="portfolioItem"><img height="250px" src="images/bitcoinBlack.png"></li></a>
+				<a href="#popup2" id = "item2"><li class="portfolioItem"><img height="250px" src="images/chatterWebsite.png"></a></li>
+				<a href="#popup3" id = "item2"><li class="portfolioItem"><img height="250px" src="images/donutImage.png"></a></li>
+				<a href="#popup4" id = "item2"><li class="portfolioItem"><img height="250px" src="images/warholPop.png"></a></li>
+				<a href="#popup5" id = "item2"><li class="portfolioItem"><img height="250px" src="images/nimbusIO.png"></a></li>
+				<a href="#popup6" id = "item2"><li class="portfolioItem"><img height="250px" src="images/iosPortfolioImage.png"></a></li>
+			</ul>
+		</div>
+		<!-- hidden popup content-->	
+		<div id="popup1" class="popup mfp-hide">
+			<h2>Bitcoin Trading Application</h2>
+			<p>I designed and developed a Bitcoin trading application for a class called Fundamentals of Programming and Computer Science. Written in Python and using the MtGox and Google News APIs, the application could buy and sell Bitcoins, show one's real-time personal investment portfolio, send SMS text alerts indicating price changes, and display up-to-date news about Bitcoins. If you'd like to see a demonstration of my program, check out the video 
+				<a id="bitcoin" href="https://www.youtube.com/watch?v=oEB_ygd1XTE" target="_blank">here</a>.
+			</p>
+		</div>
+		<div id="popup2" class="popup mfp-hide">
+			<h2>iOS App Development</h2>
+			<p>Chattr is a chat messenger application that my partner and I designed and developed for an Intro iOS development course. Using Objective-C along with Parse as a backend, we developed a fully-functional messenger app for the iPhone.
+			</p>
+			<img id= "chatter" width = "300px" src="images/chatterSS1.png">
+		</div>
+		<div id="popup3" class="popup mfp-hide">
+			<h2>CMU Donut Dash Website</h2>
+			<p>As Operations Head of CMU Donut Dash, I was tasked with making sure that all aspects of the race went successfully. In addition to planning out all logistical details of the race, I was asked to help create the website, so I designed and developed a portion of it seen <a href="http://www.cmudonutdash.org/Home/Contact" target="_blank">here</a>. This website allowed over 300 runners to register and helped raise over $21,000 for The Children's Hospital.
+			</p>
+				<a href="http://www.cmudonutdash.org/Home/Contact" target="_blank"><img id="dd" width = "650px" src="images/ddContact.png"></a>
+		</div>
+		<div id="popup4" class="popup mfp-hide">
+			<h2>Andy Warhol Website</h2>
+			<p>I designed and developed a website for a fictional gallery featuring Andy Warhol's artwork for a class called Intro to Information Systems. The goal of the project was to increase proficiency in HTML, CSS, jQuery, and fundamentals of design. The website design was supposed to encompass Warhol's unique, bold, and sometimes controversial artwork, while still preserving all functionality.
+			</p>
+				<a target="_blank" href="https://googledrive.com/host/0B8mVDYlO5TZoMWxyTVZ6QmoxcU0/index.html"><img id="warhol" width = "650px" src="images/warholWebsite.png"></a>
+		</div>
+		<div id="popup5" class="popup mfp-hide">
+			<h2>Nimbus I/O Startup</h2>
+			<p>Nimbus I/O was a proposed startup idea that my 4 colleagues and I shaped into potentially lucrative business. Nimbus I/O is basically a very profitable file transfer service that would enable much larger file transfers than are currently available to the common user. After researching and planning for two months, we formulated a business plan and pitch that won us one of the top awards in our entrepreneurship class. Click <a target="blank" href="files/final.pdf"> here </a>to view our final presentation.
+		</div>
+		<div id="popup6" class="popup mfp-hide">
+			<h2>iOS Splashscreen Design</h2>
+			<p>
+				I was challenged with designing an iPhone splashscreen illustrating an incoming call from medical personnel. The design was supposed to emphasize the type of caller even when looking at it from a distance. My final submission (seen below) won Best Design out of all other medical personnel designs.
+			</p>
+			<img width = "300px" src="images/splashscreen.png">
+		</div>
+
+	</body>
+</html>
