@@ -32,6 +32,7 @@ html {
 	margin-right: 1em;
 	margin-top: 1.5em;
 	margin-bottom: 1em;
+	opacity: 1;
 
 }
 
@@ -44,6 +45,14 @@ html {
 #tagline .taglineBold{
 	font-weight: bold;
 	font-size: 1.05em;
-	opacity: 0.8;
+	opacity: 1;
 
+}
+
+#disclaimer{
+	position: fixed;
+	bottom:5px;
+	right:50px;
+	color: gray;
+	
 }

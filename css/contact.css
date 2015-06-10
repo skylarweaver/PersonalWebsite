@@ -1,6 +1,7 @@
 html { 
   background-color: #000000;
-  background: #000 url(../images/crater.jpg) no-repeat center center fixed;
+  /*background: #000 url(../images/crater.jpg) no-repeat center center fixed;*/
+  background: #000 url(../images/surfSun.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,13 +12,14 @@ html {
 
 #container{
 	opacity: 0.93;
-	background-color: #F3F3F3;
-	width: 35%;
-	height: 25em;
+	background-color: white;
+	width: 30em;
+	height: 20.5em;
+	margin: auto;
 	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: auto;
-	padding: 1.4% 5% 1% 5%;
+	/*margin-left: 14%;*/
+	/*margin-right: auto;*/
+	padding-top: 0.6em;
 	border-radius: 5px;
 	text-align: center;
 	min-width: 450px;
@@ -28,14 +30,19 @@ html {
 	font-size: 3.4em;
 	color: #000;
 	border-radius: 10px;
-	box-shadow: 0 55px 0 0 #000;
+	box-shadow: 0 55px 0 0 #111;
 	height: 7px;
-	margin: 0em auto 1.3em auto;
+	margin: 0em auto 1em auto;
 	width: 350px;
 }
 
+#titleDiv{
+	/*background-color: #27ae60;*/
+	width: 28.13em;
+	margin: auto;
+}
 #container h4{
-	color: #A04C0E;
+	color: #000;
 	line-height: 0.25;
 	margin-bottom: 2em;
 }
@@ -43,7 +50,7 @@ html {
 #container #contactInfo{
 	display: inline-block;
 	text-align: left;
-	margin-top:0.9%;
+	/* margin-top:0.9%; */
 }
 
 #container img{
@@ -61,22 +68,47 @@ html {
 }
 
 #container h3{
-	color: black;
 }
 
 #contactInfo{
 }
 
 #contactInfo #topLine{
-	background-color: rgba(183, 104, 213,1.0);
+	/*background-color: rgba(183, 104, 213,1.0);*/
+	width: 450px;
+	height:65px;
+	color: #000;
+	/* padding-left: 15%; */
+	transition:background .7s;
+	transition:color .7s;
+
+}
+
+#contactInfo #topLine:hover{
+	/*background-color: rgba(255,255,255,1.0);*/
+	color: black;
 	width: 450px;
 	height:65px;
 	/* padding-left: 15%; */
+	transition:background .7s;
+	transition:color .7s;
 }
 
 #contactInfo #secondLine{
-	background-color: rgba(52, 152, 219,1.0);
+	/*background-color: rgba(52, 152, 219,1.0);*/
 	height: 65px;	
+	color: #000;
+	transition:background .7s;
+	transition:color .2s;
+
+}
+
+#contactInfo #secondLine:hover{
+	background-color: rgba(255,255,255,1.0);
+	color: #000;
+	height: 65px;	
+	transition:background .7s;
+	transition:color .2s;
 }
 
 #contactInfo #secondLine h3{
@@ -84,33 +116,32 @@ html {
 
 #icons{
 	display: inline-flex;
-	background: rgba(255,255,255, 1);
-	margin-top: -2.5%;
+	/*background: rgba(255,255,255, 1);*/
+	margin-top: 1.5%;
 }
 
 #icons #facebook{
     width:0px;
     height:0px;
-	background: rgba(255,255,255, 1);
-    background:url('../images/facebookREG.jpg');
-    padding:75px;
+	/*background: rgba(255,255,255, 1);*/
+    background:url('../images/facebookREG.png');
+    padding:37.5px;
     	transition:background .7s;
-
 }
 
 #icons #facebook:hover{
-    background:url('../images/facebookREV.jpg');
+    background:url('../images/facebookREV.png');
             	transition:background .7s;
 
 }
-
 
 #icons #github{
 	    width:0px;
     height:0px;
     background:url('../images/githubREG.png');
-    padding:75px;
+    padding:37.5px;
         	transition:background .7s;
+	margin-left:30px;
 
 }
 
@@ -124,8 +155,9 @@ html {
     width:0px;
     height:0px;
     background:url('../images/linkedInREG.png');
-    padding:75px;
+    padding:37.5px;
         	transition:background .7s;;
+    margin-right: 30px
 }
 
 

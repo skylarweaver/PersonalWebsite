@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="Author" content="Skylar Weaver">
+		<title>Skylar Weaver &#8212; Developer and Analyst</title>
+		<meta name="keywords" content="Skylar Weaver SkylarWeaver Carnegie Mellon university CMU information systems developer software front back end">
+		<meta name="description" content="Skylar Weaver, an Information Systems student at Carnegie Mellon University">
+		<link rel="icon"
+		type="ico"
+		href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" href="css/magnific-popup.css"> 
+		<link rel="icon" type="ico" href="pictures/favicons/favicon.ico">
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<!--JS-->
+	</head>
+	<body>
+		<header>
+			<div id = "logo">
+				<a href="index.html"><img id = "logo" src = "images/weave.png" height="60"></a>
+			</div>
+				<div id="navBar">
+					<nav>
+							<ul>
+								<a id="current" href="portfolio.html">Portfolio </a>
+								<a href="resume.html">Resume</a>
+								<a href="contact.html">Contact</a>
+							</ul>
+						</nav>	
+				</div>
+		</header>
+		<div id="portfolioGrid">
+			<ul id="gridList">
+				<a href="#popup1" id = "item1"><li class="portfolioItem"><img height="250px" src="images/bitcoinBlack.png"></li></a>
+				<a href="#popup2" id = "item2"><li class="portfolioItem"><img height="250px" src="images/chatterWebsite.png"></a></li>
+				<a href="#popup3" id = "item2"><li class="portfolioItem"><img height="250px" src="images/TartanLogoW-Ocirlce.png"></a></li>
+				<a href="#popup4" id = "item2"><li class="portfolioItem"><img height="250px" src="images/warholPop.png"></a></li>
+				<a href="#popup5" id = "item2"><li class="portfolioItem"><img height="250px" src="images/nimbusIO.png"></a></li>
+				<a href="#popup6" id = "item2"><li class="portfolioItem"><img height="250px" src="images/iosPortfolioImage.png"></a></li>
+			</ul>
+		</div>
+		<!-- hidden popup content-->	
+		<div id="popup1" class="popup mfp-hide">
+			<h2>Bitcoin Trading Application</h2>
+			<p>I designed and developed a Bitcoin trading application for a class called Fundamentals of Programming and Computer Science. Written in Python and using the MtGox and Google News APIs, the application could buy and sell Bitcoins, show one's real-time personal investment portfolio, send SMS text alerts indicating price changes, and display up-to-date news about Bitcoins. If you'd like to see a demonstration of my program, check out the video 
+				<a id="bitcoin" href="https://www.youtube.com/watch?v=oEB_ygd1XTE" target="_blank">here</a>.
+			</p>
+		</div>
+		<div id="popup3" class="popup mfp-hide">
+			<h2>Tartan Ice Hockey Website</h2>
+			<p>As president of Carnegie Mellon Ice Hockey Team, I took the intiative to develop a website for our team. The website is designed to keep players, parents, and fans informed and also to increase awareness of our team for recruitment purposes. The website can be seen <a href="http://www.tartanhockey.com" target="_blank">here</a>.
+			</p>
+				<a href="http://www.tartanhockey.com" target="_blank"><img id="dd" width = "650px" src="images/tartanWebScreenShot.png"></a>
+		</div>
+		<div id="popup2" class="popup mfp-hide">
+			<h2>iOS App Development</h2>
+			<p>Chattr is a chat messenger application that my partner and I designed and developed for an Intro iOS development course. Using Objective-C along with Parse as a backend, we developed a fully-functional messenger app for the iPhone.
+			</p>
+			<img id= "chatter" width = "300px" src="images/chatterSS1.png">
+		</div>
+		<div id="popup4" class="popup mfp-hide">
+			<h2>Andy Warhol Website</h2>
+			<p>I designed and developed a website for a fictional gallery featuring Andy Warhol's artwork for a class called Intro to Information Systems. The goal of the project was to increase proficiency in HTML, CSS, jQuery, and fundamentals of design. The website design was supposed to encompass Warhol's unique, bold, and sometimes controversial artwork, while still preserving all functionality.
+			</p>
+				<a target="_blank" href="https://googledrive.com/host/0B8mVDYlO5TZoMWxyTVZ6QmoxcU0/index.html"><img id="warhol" width = "650px" src="images/warholWebsite.png"></a>
+		</div>
+		<div id="popup5" class="popup mfp-hide">
+			<h2>Nimbus I/O Startup</h2>
+			<p>Nimbus I/O was a proposed startup idea that my 4 colleagues and I shaped into potentially lucrative business. Nimbus I/O is basically an online file transfer service that would enable the common user to transfer very large files. After researching and planning for two months, we formulated a business plan and pitch that won us one of the top awards in our entrepreneurship class. Click <a target="blank" href="files/Final.pdf">here</a> to view our final presentation.
+		</div>
+		<div id="popup6" class="popup mfp-hide">
+			<h2>Chess Camp Rails App</h2>
+			<p>
+				In one of the most challenging courses in the Information Systems curriculum, we were tasked with creating a web application for Alex and Mark's Chess Camp. The web app was built using Ruby on Rails and SQLite, and all tests were done using the FactoryGirl and Cucumber packages. My project turned out to be one of the best built in the class, and I was one of few to receive an A in the class. For a deeper look into my work, check out the Github repo <a target="blank" href="https://github.com/skylarweaver/ChessRailsProject">here.</a>
+			</p>
+			<img width = "500px" src="images/chessApp.png">
+		</div>
+		<!-- JS -->
+		<script src="js/jquery-1.11.2.min.js" ></script>
+		<script src="js/jquery.magnific-popup.js" ></script> 
+		<Script async>
+		$(document).ready(function() {
+			// From an element with ID item1
+			console.log('HELLO');
+			$('#gridList').magnificPopup({
+			  delegate: "a",
+			  type: "inline",
+			  midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+			  // mainClass:"mfp-fade",
+			});
+		});
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-47769417-1', 'skylarweaver.com');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
