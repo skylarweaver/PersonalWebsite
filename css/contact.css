@@ -86,7 +86,7 @@ html {
 
 #contactInfo #topLine:hover{
 	/*background-color: rgba(255,255,255,1.0);*/
-	color: black;
+	color: #333;
 	width: 450px;
 	height:65px;
 	/* padding-left: 15%; */
@@ -105,7 +105,7 @@ html {
 
 #contactInfo #secondLine:hover{
 	background-color: rgba(255,255,255,1.0);
-	color: #000;
+	color: #333;
 	height: 65px;	
 	transition:background .7s;
 	transition:color .2s;
@@ -126,12 +126,16 @@ html {
 	/*background: rgba(255,255,255, 1);*/
     background:url('../images/facebookREG.png');
     padding:37.5px;
+    	border-radius: 4px;
+
     	transition:background .7s;
 }
 
 #icons #facebook:hover{
     background:url('../images/facebookREV.png');
             	transition:background .7s;
+            		border-radius: 4px;
+
 
 }
 
@@ -142,12 +146,16 @@ html {
     padding:37.5px;
         	transition:background .7s;
 	margin-left:30px;
+		border-radius: 4px;
+
 
 }
 
 #icons #github:hover{
     background:url('../images/githubREV.png');
             	transition:background .7s;
+            		border-radius: 4px;
+
 
 }
 
@@ -157,11 +165,15 @@ html {
     background:url('../images/linkedInREG.png');
     padding:37.5px;
         	transition:background .7s;;
-    margin-right: 30px
+    margin-right: 30px;
+    	border-radius: 4px;
+
 }
 
 
 #icons #linkedIn:hover{
     background: url('../images/linkedInREV.png');
             	transition:background .7s;
+            		border-radius: 4px;
+
 }
